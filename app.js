@@ -5,9 +5,13 @@ import { renderSnackEl } from './render-snacks.js';
 import { globalTech } from './globalTech-data.js';
 import { renderGlobalTechEl } from './render-globalTech.js';
 
+import { actors } from './actors-data.js';
+import { renderActorsEl } from './render-actors.js';
+
 // initialize global state
 const snackListEl = document.querySelector('.snacks-list');
 const techListEl = document.querySelector('.tech-list');
+const 
 
 for (let snack of snacks) {
     const snackEl = renderSnackEl(snack);

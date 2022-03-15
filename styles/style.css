@@ -131,3 +131,13 @@ footer {
 	padding: 20px;
 	box-shadow: 5px 5px 15px 3px gold;
 } 
+
+.actors-list {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-items: center;
+	margin: 5px;
+	padding: 20px;
+	box-shadow: 5px 5px 15px 3px purple;
+} 
