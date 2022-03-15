@@ -111,3 +111,17 @@ footer {
     }
 
   }
+
+.snacks {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-items: center;
+	margin: 5px;
+	padding: 20px;
+	box-shadow: 5px 5px 15px -7px green;
+}  
+
+.snacks img {
+	width: 100px;
+}
