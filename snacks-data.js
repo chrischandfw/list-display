@@ -18,6 +18,9 @@ export const snacks = [
         country: 'Thailand'
     },
     {
-        name: '' 
+        name: 'Hello Panda',
+        cost: '5',
+        retailPrice: '12',
+        country: 'Taiwan' 
     }
 ];
