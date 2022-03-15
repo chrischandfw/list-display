@@ -112,7 +112,7 @@ footer {
 
   }
 
-.snacks {
+.snacks-list {
 	display: flex;
 	flex-wrap: wrap;
 	justify-content: center;
@@ -122,6 +122,12 @@ footer {
 	box-shadow: 5px 5px 15px 3px green;
 }  
 
-.snacks img {
-	width: 100px;
-}
+.tech-list {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-items: center;
+	margin: 5px;
+	padding: 20px;
+	box-shadow: 5px 5px 15px 3px gold;
+} 

@@ -2,17 +2,22 @@
 import { snacks } from './snacks-data.js';
 import { renderSnackEl } from './render-snacks.js';
 
+import { globalTech } from './globalTech-data.js';
+import { renderGlobalTechEl } from './render-globalTech.js';
+
 // initialize global state
-const snackListEl = document.querySelector('.snack-list');
+const snackListEl = document.querySelector('.snacks-list');
+const techListEl = document.querySelector('.tech-list');
 
 for (let snack of snacks) {
-    const snackEl = renderSnackEl(snack.name, snack.cost, snack.retailPrice, snack.country);
+    const snackEl = renderSnackEl(snack);
 
     snackListEl.append(snackEl);
 }
 
+for (let tech of globalTech) {
+    const globalTechEl = renderGlobalTechEl(tech);
 
-// set event listeners 
-  // get user input
-  // use user input to update state 
-  // update DOM to reflect the new state
+    techListEl.append(globalTechEl);
+}
+

@@ -14,10 +14,10 @@ export function renderSnackEl(snack) {
 
     snackEl.classList.add('snack');
 
-    nameEl.textContent = snack.name;
+    nameEl.textContent = `Name: ${snack.name}`;
     wholesaleEl.textContent = `Wholesale: ${snack.cost}`;
     retailEl.textContent = `Retail: ${snack.retailPrice}`;
-    countryEl.textContent = snack.country;
+    countryEl.textContent = `Country: ${snack.country}`;
 
     snackEl.append(nameEl, wholesaleEl, retailEl, countryEl);
 
