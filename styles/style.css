@@ -144,3 +144,7 @@ footer {
 	padding: 20px;
 	box-shadow: 5px 5px 15px 3px purple;
 } 
+
+.actors-list img {
+	width: 250px;
+}

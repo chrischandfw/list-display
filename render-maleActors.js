@@ -7,12 +7,13 @@ export function renderActorsEl(actors) {
 
     actorsEl.classList.add('actor');
 
-    imgEl.src = ``;
+    imgEl.src = `assets/${actors.name}.jpg`;
     nameEl.textContent = actors.name;
     birthDateEL.textContent = actors.birthDate;
     moviesEl.textContent = `Title: ${actors.movies.title}, Debut: ${actors.movies.year}`;
 
-    actorsEl.append(nameEl, birthDateEL, moviesEl);
+    actorsEl.append(imgEl, nameEl, birthDateEL, moviesEl);
+	
 
     return actorsEl;
 }

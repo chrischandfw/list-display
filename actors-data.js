@@ -10,7 +10,7 @@ export const actors = [
     },
     {
         
-        name: 'Nadech Kugimiya',
+        name: 'Nadech',
         birthDate: 'Dec 17, 1991',
         movies: {
             title: 'The Con Heartist',
@@ -19,7 +19,7 @@ export const actors = [
     },
     {
         
-        name: 'Alek Theeradetch',
+        name: 'Alek',
         birthDate: 'Sept 15, 1989',
         movies: {
             title: 'Rivalry',
