@@ -11,7 +11,7 @@ import { renderActorsEl } from './render-actors.js';
 // initialize global state
 const snackListEl = document.querySelector('.snacks-list');
 const techListEl = document.querySelector('.tech-list');
-const 
+const actorsListEl = document.querySelector('.actors-list');
 
 for (let snack of snacks) {
     const snackEl = renderSnackEl(snack);
@@ -25,3 +25,8 @@ for (let tech of globalTech) {
     techListEl.append(globalTechEl);
 }
 
+for (let actor of actors) {
+    const actorsEl = renderActorsEl(actors);
+
+    actorsListEl.append(actors);
+}
