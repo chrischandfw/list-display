@@ -111,3 +111,51 @@ footer {
     }
 
   }
+
+.snacks-list {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-items: center;
+	margin: 5px;
+	padding: 20px;
+	box-shadow: 5px 5px 15px 3px green;
+}  
+
+.tech-list {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-items: center;
+	margin: 5px;
+	padding: 20px;
+	box-shadow: 5px 5px 15px 3px gold;
+} 
+
+.actors-list {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-items: center;
+	margin: 5px;
+	padding: 20px;
+	box-shadow: 5px 5px 15px 3px purple;
+} 
+
+.actors-list img {
+	width: 250px;
+}
+
+.artists-list {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-items: center;
+	margin: 5px;
+	padding: 20px;
+	box-shadow: 5px 5px 15px 3px magenta;
+}
